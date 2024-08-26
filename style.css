@@ -1,0 +1,79 @@
+body {
+    
+    color: white;
+    background-color: green;
+    /* background-image: url(https://conteudo.imguol.com.br/c/entretenimento/68/2019/01/07/os-10-melhores-jogos-de-2018-na-opiniao-do-uol-jogos-1546887965085_v2_1920x1080.jpg); */
+    background-image: url(https://www.oficinadanet.com.br/imagens/post/39603/capa-quantos-estudios-o-xbox-adquiriu-nos-ultimos-5-anos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    margin-top: 250px;
+    
+}
+
+.Caixa {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 95px;
+    left: 550px;
+    height: 710px;
+    width: 700px;
+    background: transparent;
+    border: 100px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 30px;
+    color: rgb(8, 207, 41);
+    border-radius: 50px;
+    padding: 10px 40px;
+    background-color: transparent
+   
+}
+
+input {
+    border-radius: 100px;
+}
+
+.Style {
+    height: 30px;
+    width: 300px;
+}
+
+.botao{
+    background-color: #2bc90c;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+
+}
+
+.botao:hover {
+    animation: none;
+}
+
+.qual {
+    display: flex;
+}
+
+.quer{
+    display: flex;
+}
